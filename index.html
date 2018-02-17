@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+    <head>
+      <meta charset="UTF-8">
+      <title>WebHomework</title>
+    
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <link rel="stylesheet" href="style.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+<!-- Navigation Bar -->
+        <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                  </div>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="file:///Users/mindynix/Documents/HTML/WebDevelopment/WebDevelopment/temp_visualization.html#">Max Temp</a></li>
+                                <li><a href="file:///Users/mindynix/Documents/HTML/WebDevelopment/WebDevelopment/humidity_visualization.html#">Humidity</a></li>
+                                <li><a href="file:///Users/mindynix/Documents/HTML/WebDevelopment/WebDevelopment/cloud_visualization.html#">Cloud Cover</a></li>
+                                <li><a href="file:///Users/mindynix/Documents/HTML/WebDevelopment/WebDevelopment/wind_visualization.html#">Wind Speed</a></li>
+                            </ul>
+                    </li>
+                    <li><a href="#">Comparison</a></li>
+                    <li><a href="#">Data</a></li>
+                  </ul>
+                </div>
+              </nav>
+
+<!--Page Title  -->
+            <div class="jumbotron text-center">
+                <h1>Relationship of Latitude and Climate</h1>
+                <p>Visualizations and Data of API calls manipulated with Pandas</p> 
+            </div>
+
+<!-- Row One -->
+            <div class="container-fluid">
+                    <div class="row">
+<!-- Left Panel  -->
+                        <div class="col-sm-7">    
+                                    <div class="panel panel-default">
+                                        <div class="panel-body">
+                                            <h2>Summary: Latitude vs X</h2>
+                                            <hr>
+                                            <img class="col-sm-9"src="Images/Temp_vs_Lat.png" alt="Latitude vs Temp">
+                                            <p>Here will be things about the summary of the project and my findings. 
+                                                Here is more text to fill up space to see if this approach is viable. 
+                                                I really wish I understood how to make this work right now. 
+                                                I will write so mny things that it will wrap around the image and the well will enclose the image correctly. 
+                                                Either that or I will have to come up with a better solution.
+                                                Keep on typing, keep on typing, keep on typing, keep on typing. I don't think this is the 
+                                                right way to approach this problem, but I suppose I will learn something in this process.
+                                            </p>
+                                       </div>
+                                    </div>
+                        </div>
+<!-- Right Panel -->
+                            <div class="col-sm-5">
+                                    
+                                    <div class="panel panel-default">
+                                        <div class="panel-body">
+                                            <h4>Visualizations</h4>
+                                            <hr>
+                                                    <div class="col-md-6">
+                                                        <a href="file:///Users/mindynix/Documents/HTML/WebDevelopment/WebDevelopment/temp_visualization.html#"><img class="img-fluid" src="Images/Temp_vs_Lat.png" style="width:100%"></a>
+                                                        <a href="file:///Users/mindynix/Documents/HTML/WebDevelopment/WebDevelopment/cloud_visualization.html#"><img src="Images/Cloud_vs_Lat.png" style="width:100%"></a>
+                                                      
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <a href="file:///Users/mindynix/Documents/HTML/WebDevelopment/WebDevelopment/humidity_visualization.html#"><img src="Images/Humidity_vs_Lat.png" style="width:100%"></a>
+                                                        <a href="file:///Users/mindynix/Documents/HTML/WebDevelopment/WebDevelopment/wind_visualization.html#"><img src="Images/Wind_vs_Lat.png" style="width:100%"></a>
+                                                    </div> 
+                                                   
+                                                </div> 
+                                    </div>
+                            </div>
+                    </div>
+            </div>
+        <footer class="footer">
+                <div class="container">
+                    <span class="text-muted">github.com/mbartlettnix</span>
+                </div>
+        </footer>
+    </body>
+</html>
+
